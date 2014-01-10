@@ -1,10 +1,10 @@
 - 
-  name: MakerSquare
-  url: http://themakersquare.com
-  screenshot: makersquare-screenshot.png
+  name: Interschool Championships
+  url: http://www.gardinerchess.com.au/chess-news/qld-interschool-state-finals
+  screenshot: interschool.png
   featured: true
   description: |
-                 MakerSquare is a full-time, ten week program that turns you into a web developer.
+                 The Queensland Interschool State Finals were proudly represented by Annandale Christian College and Townsville Grammar who both take lessons with Oranje Chess.
 - 
   name: RailsGirls ATX
   url: http://railsgirlsatx.org

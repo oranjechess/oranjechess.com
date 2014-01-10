@@ -4,10 +4,13 @@
   </div>
 
   <div class="bio">
-    <h2>Hello there! I'm <%= full_name %>.</h2>
-    <h3>I'm a full-stack web developer living in <%= city %>.</h3>
+    <h2>Hello there! We're <%= full_name %>.</h2>
+    <h3>We love learning, playing and teaching kids chess in <%= city %>.</h3>
     <!-- Short bio about yourself, your skills, whether you're looking for work or not, etc. -->
-    <p><%= lorem.sentences 5 %></p>
+    <p>Chess is amazingly <strong>good for kids!</strong></p> 
+    <p>Teach your child chess and watch them focus intensely and delight in the mystery and strategy of the game. Then remember that they are learning numerous mental and life skills as well as having fun!</p>
+    <p> Chess is an investment in a person's - young or old - health and future and because of this, remains a language spoken across the world. </p>
+    <p>Anyone, <strong>especially kids </strong>, can learn this great language!</p>
   </div>
 </div>
 
@@ -22,7 +25,7 @@
   <section class="featured-project">
     <% project = data.projects.select(&:featured).first %>
 
-    <h2>Featured project</h2>
+    <h2>Featured</h2>
     <h3><%= link_to project.name, 'portfolio.html' %></h3>
     <%= link_to(image_tag(project.screenshot), 'portfolio.html') %>
   </section>
