@@ -5,7 +5,7 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2012-01-01T06:00:00Z</updated>
+  <updated>2011-12-31T14:00:00Z</updated>
   <author>
     <name>Blog Author</name>
   </author>
@@ -13,8 +13,8 @@
     <title>Lorem Ipsum</title>
     <link rel="alternate" href="/blog/2012/01/01/example-article.html"/>
     <id>/blog/2012/01/01/example-article.html</id>
-    <published>2012-01-01T06:00:00Z</published>
-    <updated>2012-01-01T06:00:00Z</updated>
+    <published>2011-12-31T14:00:00Z</published>
+    <updated>2011-12-31T14:00:00Z</updated>
     <author>
       <name>Article Author</name>
     </author>
