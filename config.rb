@@ -20,7 +20,7 @@ activate :sprockets
 ####
 
 set :full_name, "Oranje Chess"
-set :city, "Townsville, Australia"
+set :city, "Queensland"
 set :resume, nil # Set to filename of resume PDF in source directory.
 set :google_analytics_tracking_id, "UA-47037716-1"
 
