@@ -2,16 +2,15 @@
   name: Interschool Championships
   url: http://www.gardinerchess.com.au/chess-news/qld-interschool-state-finals
   screenshot: interschool.png
-  featured: true
-  description: |
-                 The Queensland Interschool State Finals were proudly represented by Annandale Christian College and Townsville Grammar who both take lessons with Oranje Chess.
-- 
-  name: RailsGirls ATX
-  url: http://railsgirlsatx.org
-  source_link: http://github.com/railsgirlsatx/site
-  screenshot: railsgirls-screenshot.png
   featured: false
   description: |
-                 This is a very long description.
+                 In the Queensland Interschool State Finals in Brisbane, Townsville was proudly represented by Annandale Christian College in secondary and Townsville Grammar in primary.  Both teams have afternoon sessions with Oranje Chess.
+- 
+  name: Term 4 North Queensland Interschool Competition
+  url: http://www.gardinerchess.com.au/chess-news/
+  screenshot: interschool1.png
+  featured: true
+  description: |
+                 The quarterly competition between schools in Townsville and surrounds always attracts a few hundred students.
 
-                 It has multiple paragraphs.    
+                 The final term determines who will represent the region at the State Finals in Brisbane.
