@@ -44,11 +44,21 @@
             <h1><a href="/"><%= full_name %></a></h1>
           </li>
           <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-          <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+          <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
         </ul>
         <section class="top-bar-section">
         <!-- Left Nav Section -->
         <ul class="right">
+        <li class="divider"></li>
+        <li class="portfolio"><a href="/portfolio.html">Portfolio</a></li>
+        <li class="divider"></li>
+		<li class="blog"><a href="/blog">Blog</a></li>
+		<li class="divider"></li>
+        <% if resume %>
+          <li class="resume"><a href="/<%= resume %>">Résumé</a></li>
+          <li class="divider"></li>
+        <% end %>
+        
           <%= social_network_link(
             'Google Plus',
             google_plus_user_id,
@@ -79,14 +89,7 @@
             github_username,
             "http://github.com/#{github_username}"
           ) %>
-          <li class="divider"></li>
-          <li class="portfolio"><a href="/portfolio.html">Portfolio</a></li>
-          <li class="divider"></li>
-          <% if resume %>
-            <li class="resume"><a href="/<%= resume %>">Résumé</a></li>
-            <li class="divider"></li>
-          <% end %>
-          <li class="blog"><a href="/blog">Blog</a></li>
+         
         </ul>
       </nav>
       <!-- End Header and Nav -->

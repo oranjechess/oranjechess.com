@@ -21,7 +21,7 @@ activate :sprockets
 
 set :full_name, "Oranje Chess"
 set :city, "Queensland"
-set :resume, nil # Set to filename of resume PDF in source directory.
+set :resume, "nil" # Set to filename of resume PDF in source directory.
 set :google_analytics_tracking_id, "UA-47037716-1"
 
 ###
@@ -31,7 +31,7 @@ set :google_analytics_tracking_id, "UA-47037716-1"
 # To hide one of these profile links, just set it to nil.
 
 # This is the id for your profile URL: https://plus.google.com/https://plus.google.com/110506932842622114536/
-set :google_plus_user_id, nil
+set :google_plus_user_id, "106966133464152985129"
 # This is your shortname for your profile URL: http://facebook.com/ada.lovelace
 set :facebook_profile_name, nil
 set :twitter_username, "oranjechess"
@@ -39,7 +39,7 @@ set :twitter_username, "oranjechess"
 set :linkedin_profile_name, nil
 set :dribbble_username, nil
 set :github_username, "oranjechess"
-set :gravatar_email_address, "steve@oranjechess.com"
+set :gravatar_email_address, "contact@oranjechess.com"
 
 Time.zone = "Australia/Brisbane"
 

@@ -14,7 +14,6 @@ $project-screenshot-left-margin: -22px;
 
 .profile-row {
   @include grid-row;
-  @include panel($bio-background-color);
 }
 
 .profile {
