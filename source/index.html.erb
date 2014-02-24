@@ -1,22 +1,20 @@
 <div class="profile-row">
   <div class="profile">
-    <%= image_tag Gravatar.new(gravatar_email_address).image_url(size: 200) %>
+    <%= image_tag 'happy_chess.jpg' %>
   </div>
 
   <div class="bio">
     <h2>Hello there! We're <%= full_name %>.</h2>
-    <h3>We love teaching kids chess in <%= city %>.</h3>
+    <h3>We love teaching chess in <%= city %>.</h3>
     <!-- Short bio about yourself, your skills, whether you're looking for work or not, etc. -->
     <br/>
-    <p><strong>Chess is incredibly <strong>good for children of all ages!</strong></strong></p> 
-    <p> Chess playing kids are actually <strong>learning</strong> kids!<br/> Chess <strong>teaches</strong> dozens of abilities, both mental, social and behavioural. <br/>Chess is <strong>free</strong>, chess is <strong>fun</strong> and chess is <strong>teaching kids</strong> every moment they play.
-<br/>
-<p> We believe, along with <strong>educators around the world</strong>, that chess is an invaluable instrument of education. See our <strong>portfolio</strong> page for resources and research on how chess can help your child and school.
+    <h4><ul><li>Chess is <strong>free.</strong></li><li>Chess is <strong>fun.</strong></li> <li>Chess is <strong>teaching as kids</strong> play.</li>
+    <li>Chess is for <strong>all ages.</strong></p> </li></ul></h4>
 </div>
 </div>
 <div class="featured-element-row">
   <section class="latest-from-blog">
-    <h2>The blog</h2>
+    <h2>Blog</h2>
     <h3><%= link_to page_articles.first.title, page_articles.first %></h3>
 
     <p><%= page_articles.first.summary %></p>
@@ -25,7 +23,7 @@
   <section class="featured-project">
     <% project = data.projects.select(&:featured).first %>
 
-    <h2>Featured</h2>
+    <h2>Featured Resource</h2>
     <h3><%= link_to project.name, 'portfolio.html' %></h3>
     <%= link_to(image_tag(project.screenshot), 'portfolio.html') %>
   </section>

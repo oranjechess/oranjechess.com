@@ -19,8 +19,9 @@ activate :sprockets
 ## Site-wide settings
 ####
 
-set :full_name, "Oranje Chess"
-set :city, "Queensland"
+set :full_name, "OranjeChess"
+set :description, "Learning Chess in Australia"
+set :city, "Australia"
 set :resume, "nil" # Set to filename of resume PDF in source directory.
 set :google_analytics_tracking_id, "UA-47037716-1"
 
