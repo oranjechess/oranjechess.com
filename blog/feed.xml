@@ -5,10 +5,79 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2012-12-31T14:00:00Z</updated>
+  <updated>2014-05-02T14:00:00Z</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Learning to use FICS - Freechess.org</title>
+    <link rel="alternate" href="/blog/2014/05/03/How-to-use-FICS.html"/>
+    <id>/blog/2014/05/03/How-to-use-FICS.html</id>
+    <published>2014-05-02T14:00:00Z</published>
+    <updated>2014-05-02T14:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <summary type="html">&lt;p&gt;The &lt;a href="http://www.freechess.org"&gt;Free Internet Chess Server - FICS -&lt;/a&gt; is the place where I learnt to play chess online.  It will always be free to play and use all the features, which are many. However this is not always obvious to newcomers.  &lt;strong&gt;FICS is full of great players, people and training - &lt;em&gt;if you know how to use it&lt;/em&gt;&lt;/strong&gt;.  This post aims to explain how to get started on FICS.  </summary>
+    <content type="html">&lt;p&gt;The &lt;a href="http://www.freechess.org"&gt;Free Internet Chess Server - FICS -&lt;/a&gt; is the place where I learnt to play chess online.  It will always be free to play and use all the features, which are many. However this is not always obvious to newcomers.  &lt;strong&gt;FICS is full of great players, people and training - &lt;em&gt;if you know how to use it&lt;/em&gt;&lt;/strong&gt;.  This post aims to explain how to get started on FICS.  &lt;/p&gt;
+
+&lt;h2&gt;Getting Started&lt;/h2&gt;
+
+&lt;p&gt;Because FICS is a server and not a website like &lt;a href="http://www.chess.com"&gt;Chess.com&lt;/a&gt; or &lt;a href="http://www.lichess.org"&gt;Lichess.org&lt;/a&gt; - you need a program to  use it.  &lt;/p&gt;
+
+&lt;p&gt;Depending on which operating system you have, there are different programs. &lt;/p&gt;
+
+&lt;h3&gt;Programs&lt;/h3&gt;
+
+&lt;p&gt;I&amp;rsquo;ve preferred three programs.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://www.babaschess.net/default.asp"&gt;Babas Chess&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;img alt="Babas Chess screenshot" width="777" height="494" src="/images/../images/Babaschess.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Babas is GUI driven with tons of options.  Install and run it and follow the prompts and you will end up a screen resembling the above.  From here you can explore all sorts of options in &lt;code&gt;File &amp;gt; Preferences&lt;/code&gt; or just hit the &lt;code&gt;Quick Commands&lt;/code&gt; menu item and play some chess.&lt;/p&gt;
+
+&lt;p&gt;On FICS there is a channel 1 for &lt;strong&gt;general help&lt;/strong&gt; and channel 6 for &lt;strong&gt;interface help&lt;/strong&gt; where you can ask for help or just Google.  Your mileage with Babas may vary but it is certainly popular.&lt;/p&gt;
+
+&lt;p&gt;If you wish to run Babaschess on Linux or Mac OS X - use the awesome &lt;a href="https://www.winehq.org/"&gt;Wine&lt;/a&gt; and turn off sounds and emoticons if they give you crashes.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://thief.sourceforge.net/download.html"&gt;Thief&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;img alt="Thief screenshot" width="1546" height="988" src="/images/../images/Thief.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Thief is dominant among &lt;a href="https://en.wikipedia.org/wiki/Bughouse_chess"&gt;Bughouse&lt;/a&gt; players and requires a bit more knowledge of FICS and commmands.  However with a bit of experimenting and Googling it is simple enough to use. If you like the look of bughouse chess - which is awesome in real-life - check out &lt;a href="http://www.bughouse.net/"&gt;Bughouse.net&lt;/a&gt; or channel 22 on FICS.&lt;/p&gt;
+
+&lt;p&gt;Thief is also Windows native but can run on Linux and Mac OS X using Wine.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="https://code.google.com/p/raptor-chess-interface/"&gt;Raptor&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;img alt="Raptor screenshot" width="1554" height="987" src="/images/../images/Raptor.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Raptor is a newer Java based interface written by members of FICS. It runs on all operating systems and is quite popular among Mac OS X and Linux users.  However, it works just fine on Windows as well.&lt;/p&gt;
+
+&lt;p&gt;The configuration of Raptor can be extensive and &lt;a href="https://code.google.com/p/raptor-chess-interface/wiki/NewToRaptor"&gt;a visit to the homepage linked above is good idea for further documentation&lt;/a&gt;.  There are also &lt;a href="https://www.youtube.com/user/Gorgonian"&gt;reviews around the Web&lt;/a&gt; to see how others configure and &lt;a href="https://code.google.com/p/raptor-chess-interface/wiki/UsefulTips"&gt;use Raptor well&lt;/a&gt;.  My setup is the screenshot above :)&lt;/p&gt;
+
+&lt;h2&gt;Registering on FICS&lt;/h2&gt;
+
+&lt;p&gt;The &lt;a href="https://code.google.com/p/raptor-chess-interface/wiki/NewToFics"&gt;best getting started guide&lt;/a&gt; to &lt;a href="http://www.freechess.org/Register/"&gt;FICS&lt;/a&gt; has already been written by the friendly Raptor guys.  Download Raptor and follow along for screen by screen explanations!&lt;/p&gt;
+
+&lt;h2&gt;Ongoing Learning&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;FICS&lt;/strong&gt; is a great place to play the variants of chess; bughouse, atomic, losers, suicide.  It is also a great community for strong blitz, tournaments in channel 49 and long time controls in Teamleague.&lt;/p&gt;
+
+&lt;p&gt;However I found it necessary to to use other sites such as &lt;a href="http://chesstempo.com/"&gt;Chesstempo&lt;/a&gt;, &lt;a href="http://www.chesspub.com/cgi-bin/chess/YaBB.pl"&gt;ChessPub&lt;/a&gt; to learn beyond the basics of playing chess on FICS.  &lt;/p&gt;
+
+&lt;p&gt;Give them a shot!&lt;/p&gt;
+
+&lt;h2&gt;Summary&lt;/h2&gt;
+
+&lt;p&gt;The very first person I saw when I first joined FICS was the user &lt;code&gt;TioHoracio&lt;/code&gt;.  After observing and learning from his games I learnt that he regularly defeats International Masters(IM&amp;rsquo;s) in Over-The-Board(OTB) chess and on FICS.  This is the way I percieve the quality of FICS - hidden but valuable.&lt;/p&gt;
+
+&lt;p&gt;FICS is a throwback to internet chess from years ago rather than the current internet.  It is still a place where you can make friends, learn from experts for free and play long series&amp;#39; of games - something I found horribly lacking on non-free sites.  &lt;/p&gt;
+
+&lt;p&gt;My FICS handle is &lt;strong&gt;maeniel&lt;/strong&gt; so feel free to drop me a message, bitcoin massage, question or just say hi.  &lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>New Site</title>
     <link rel="alternate" href="/blog/2013/01/01/new-site.html"/>
